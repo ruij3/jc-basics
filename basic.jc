@@ -112,3 +112,10 @@ let person = {
 // print name
 console.log(person["name"]);
 console.log(person.name);
+
+// functions
+function cube(x) { // def cube(x):
+    return x ** 3;
+}
+
+console.log(cube(123));
