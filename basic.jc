@@ -1,0 +1,32 @@
+// write variables like: (end everying line with ;)
+let myName = "Python";
+
+// overrite myName: (no need to 'let' again)
+myName = "Ruijia"
+
+const myAge = 18; // constant, cannot be changed
+let myPhone = 1234567;
+myPhone = 7654321;
+let myArr = [1, 2, 3, 4, 5, 6]; // a list
+let isHuman = true; // write lowercase
+
+// print: console.log()
+console.log(myName);
+console.log(myAge);
+console.log(myPhone);
+console.log(myArr);
+console.log(isHuman);
+
+// playing with numbers
+let a = (5 + 7) * 2;
+let b = (5 - 7) / 3;
+let c = 5 ** 7 // power
+let d = 123 % 45; // remainder
+console.log(a, b, c, d);
+
+// no need import math/random just use
+let e = Math.random(); // random num
+let f = Math.round(123.45678); // round off
+let g = Math.cos(Math.PI); // cosine
+let h = Math.E ** 2; // e
+console.log(e, f, g, h)
