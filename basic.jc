@@ -30,3 +30,85 @@ let f = Math.round(123.45678); // round off
 let g = Math.cos(Math.PI); // cosine
 let h = Math.E ** 2; // e
 console.log(e, f, g, h)
+
+// playing with strings
+let firstName = "Andrew";
+let lastName = "Tay";
+let fullName = firstName + " " + lastName;
+let nameLength = fullName.length; // len(fullName)
+console.log(fullName + ", Length = " + nameLength);
+
+let language = "JavaScript";
+console.log(language[0]); // first letter
+console.log(language.substring(2, 5)); // 3rd - 5th letter
+console.log(language.toUpperCase()); // make all uppercase
+
+// if..elif..else
+let age = 20;
+
+if (age <= 12) {
+    console.log("Hello kid!");
+}
+else if (age <= 18) {
+    console.log("Hello teen!");
+}
+else {
+    console.log("Hello adult");
+}
+
+// for loop
+let fruits = ["orange", "apple", "pear", "watermelon"];
+
+for (let i = 0; i < fruits.length; i ++) { // while i < len(fruits), increase i + 1
+    console.log(fruits[i]);
+}
+
+for (let fruit of fruits) { // for fruit in fruits
+    console.log(fruit);
+}
+
+// while loop
+let counter = 10;
+while (counter > 0) {
+    console.log(counter);
+    counter--;
+}
+
+console.log("Happy New Year!!");
+
+
+// input()
+word = prompt("Give a word ");
+if (word.length < 3) {
+    console.log("wow so short");
+}
+else if (word.length > 10) {
+    console.log("wow so long");
+}
+else {
+    console.log("wow");
+}
+
+// arrays
+let nums = [123, 456, 789];
+let schools = ["RI", "ASR", "EJC", "ACJC"];
+
+console.log(schools.length); // len(schols)
+// add element to string
+schools.push("TMJC");
+schools.push("HCI");
+// remove last element
+console.log(schools);
+schools.pop();
+console.log(schools);
+
+// object (like dictionaries in python)
+let person = {
+    name: "Ruijia",
+    age: 17,
+    isStudent: true
+}
+
+// print name
+console.log(person["name"]);
+console.log(person.name);
